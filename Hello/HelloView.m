@@ -35,6 +35,7 @@
     NSFont *font = [NSFont fontWithName:@"Futura-MediumItalic" size:42];
     [font_attributes setObject:font forKey:NSFontAttributeName];
     //Just test GitHub
+    //May I commit and push new doc into remote repository from Xcode ?
     [hello drawAtPoint:point withAttributes:font_attributes];
     [font_attributes release];
 }
