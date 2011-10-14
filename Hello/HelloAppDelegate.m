@@ -10,7 +10,7 @@
 
 @implementation HelloAppDelegate
 
-@synthesize window;
+@synthesize window, testButton;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {

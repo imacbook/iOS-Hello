@@ -9,10 +9,15 @@
 #import <Cocoa/Cocoa.h>
 
 @interface HelloAppDelegate : NSObject <NSApplicationDelegate> {
+    
+    IBOutlet NSButton *testButton;
+    
 @private
     NSWindow *window;
+
 }
 
 @property (assign) IBOutlet NSWindow *window;
+@property (nonatomic, retain) IBOutlet NSButton *testButton;
 
 @end
