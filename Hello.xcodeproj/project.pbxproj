@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5719C42914D929670072E781 /* lookView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5719C42814D929670072E781 /* lookView.xib */; };
 		573D9CE71391331A00523B76 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573D9CE61391331A00523B76 /* Cocoa.framework */; };
 		573D9CF11391331A00523B76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 573D9CEF1391331A00523B76 /* InfoPlist.strings */; };
 		573D9CF41391331A00523B76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 573D9CF31391331A00523B76 /* main.m */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5719C42814D929670072E781 /* lookView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = lookView.xib; sourceTree = "<group>"; };
 		573D9CE21391331A00523B76 /* Hello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hello.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		573D9CE61391331A00523B76 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		573D9CE91391331A00523B76 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -91,6 +93,7 @@
 				573D9CED1391331A00523B76 /* Supporting Files */,
 				573D9D031391345700523B76 /* HelloView.h */,
 				573D9D041391345700523B76 /* HelloView.m */,
+				5719C42814D929670072E781 /* lookView.xib */,
 			);
 			path = Hello;
 			sourceTree = "<group>";
@@ -132,6 +135,9 @@
 /* Begin PBXProject section */
 		573D9CD91391331800523B76 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 573D9CDC1391331800523B76 /* Build configuration list for PBXProject "Hello" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -157,6 +163,7 @@
 				573D9CF11391331A00523B76 /* InfoPlist.strings in Resources */,
 				573D9CF71391331A00523B76 /* Credits.rtf in Resources */,
 				573D9CFD1391331B00523B76 /* MainMenu.xib in Resources */,
+				5719C42914D929670072E781 /* lookView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +291,7 @@
 				573D9D021391331B00523B76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
